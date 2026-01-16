@@ -56,9 +56,7 @@ function renderTasks(taskArray) {
           <option ${task.status === "Completed" ? "selected" : ""}>Completed</option>
         </select>
       </td>
-    `;
-
-    taskList.appendChild(tr);
+    `;    taskList.appendChild(tr);
   });
 }
 
